@@ -19,7 +19,7 @@ path{
     border-bottom-right-radius: 10px;
     padding-right: 10px;
     width: 1px;
-    height: 30px;
+    height: auto;
 }
 
 .logocontainer{
@@ -28,5 +28,10 @@ path{
 }
 
 .logo{
-
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
