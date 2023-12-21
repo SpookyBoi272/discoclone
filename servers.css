@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    width: 5vw;
+    height: 100vh;
+    background-color: #191b1d;
+}
