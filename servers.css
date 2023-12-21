@@ -2,8 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.sidebar{
-    width: 5vw;
+
+.servers{
+    width: 72px;
     height: 100vh;
     background-color: #191b1d;
+}
+
+.logocontainer{
+    background-color: aqua;
+    color: white;
 }
