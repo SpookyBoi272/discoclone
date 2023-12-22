@@ -1,0 +1,37 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 45, 49);
+    width: 240px;
+    height: 100vh;
+}
+
+.searcharea{
+    display: flex;
+    align-items: center;
+    width: 220px;
+    padding: 0px 10px;
+    height: 48px;
+    background-color: rgb(43, 45, 49);
+    border-bottom: 1px solid black;
+}
+
+.searchbar {
+    background-color: rgb(30, 31, 34);
+    color: rgb(148, 155, 164);
+    padding: 1px 6px;
+    border: none;
+    border-radius: 5px;
+    width: 220px;
+    height: 28px;
+    text-align: left;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}

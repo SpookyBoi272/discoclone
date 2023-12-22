@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+}
+
 .servers{
     width: 72px;
     height: 100vh;
