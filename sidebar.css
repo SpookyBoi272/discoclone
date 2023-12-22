@@ -28,11 +28,29 @@
     cursor: pointer;
 }
 
+.item{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 216px;
+    font-size: 15px;
+    padding: 0px 8px;
+    border-radius: 7px;
+}
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+.item svg{
+    margin: 0px 12px 0px 0px;
+    height: 32px;
+    width: 32px;
+}
+
+.item span{
+    width: 156px;
+    height: 20px;
+}
+
+.item:hover{
+    background-color: rgba(78, 80, 88, 0.6);
 }
