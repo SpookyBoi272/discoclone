@@ -39,6 +39,7 @@
     font-size: 16px;
     padding: 0px 8px;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .item svg{
@@ -54,4 +55,22 @@
 
 .item:hover{
     background-color: rgba(78, 80, 88, 0.6);
+}
+
+#newMsg{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+#newMsg{
+    padding: 18px 8px 4px 18px;
+    width: 188px;
+    height: 18px;
+}
+
+#newMsg svg{
+    height: 16px;
+    width: 16px;
 }
