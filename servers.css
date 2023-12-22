@@ -54,3 +54,7 @@ path{
     margin-left: 16px;
     border-radius: 100%;
 }
+
+.capsule img:hover {
+    border-radius: 15px;
+}
