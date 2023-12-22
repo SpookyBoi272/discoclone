@@ -40,14 +40,18 @@ path{
 }
 
 .logo{
-    background-color: rgb(88, 101, 242)
-    ;
+    background-color: rgb(88, 101, 242);
+    cursor: pointer;
     padding: 9px;
     border-radius: 15px;
     display: flex;
     margin-left: 5px;
+    /* transition: transform 0.3s ease; */
 }
 
+.logo:active{
+    transform: translateY(0.8px);
+}
 
 .seperation{
     height: 10px;
@@ -56,6 +60,7 @@ path{
 .capsule img{
     width: 70%;
     margin-left: 16px;
+    transition: border-radius 0.2s ease;
     border-radius: 100%;
 }
 
