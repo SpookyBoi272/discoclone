@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     width: 220px;
-    padding: 0px 10px;
     height: 48px;
     background-color: rgb(43, 45, 49);
     border-bottom: 1px solid black;
@@ -37,7 +36,7 @@
     justify-content: center;
     height: 42px;
     width: 216px;
-    font-size: 15px;
+    font-size: 16px;
     padding: 0px 8px;
     border-radius: 4px;
 }
