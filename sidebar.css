@@ -30,7 +30,7 @@
 }
 
 .item{
-    color: white;
+    color: rgb(148, 155, 164);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,10 +42,14 @@
     cursor: pointer;
 }
 
+.seperator{
+    height: 8px;
+}
+
 .item svg{
     margin: 0px 12px 0px 0px;
-    height: 32px;
-    width: 32px;
+    height: 24px;
+    width: 24px;
 }
 
 .item span{
@@ -56,6 +60,7 @@
 
 .item:hover{
     background-color: rgba(78, 80, 88, 0.6);
+    color: white;
 }
 
 #newMsg{
