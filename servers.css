@@ -24,6 +24,7 @@ body{
     align-content: center;
     justify-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 path{
