@@ -1,5 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/gg-sans-2');
 
+
+body{
+    background-color: #313338;
+}
+
 *{
     font-family: 'gg sans Normal', sans-serif;
     margin: 0;
